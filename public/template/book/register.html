@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v3.8.5">
+  <title>Book Sharing</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300i,400,400i,600" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link href="assets/css/custom.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="top-header">
+    <div class="container">
+      <div class="dropdown float-right">
+        <a class="dropdown-toggle pointer top-header-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-user"></i> My Account
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="profile.html">Profile</a>
+          <a class="dropdown-item" href="dashboard.html">Dashboard</a>
+          <a class="dropdown-item" href="#">Logout</a>
+        </div>
+      </div>
+      <div class="float-right">
+        <a href="" class="top-header-link"><span class="item">10</span> items in wishlist</a>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+  <div class="main-navbar">
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand mr-5" href="index.html">
+        <img src="assets/images/logo.jpg" class="logo-image">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="top-books.html">Top Books</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter Books By</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Filter By Top Borrowed</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Upload Books</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="upload.html">Upload Now</a>
+              <a class="dropdown-item" href="rules.html">Upload Rules</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2 search-form" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-secondary my-2 my-sm-0 search-button" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div class="main-content">
+
+  <div class="login-area page-area">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-8 border p-4">
+            <form>
+              <h3>Create New Account</h3>
+              <hr>
+              <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                    <label for="exampleInputEmail1">First Name</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter first name">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Last Name</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter last name">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Username</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Confirm Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+              </div>
+              <button type="submit" class="btn btn-success"><i class="fa fa-check"></i> Register Now</button>
+            </form>
+          </div>
+          <div class="col-md-4 border p-4">
+            <h4>Already have an account  ?</h4>
+            <p>
+              <a href="login.html" class="btn btn-primary btn-lg">Login Now</a>
+            </p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer-area">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-3">
+        <img src="assets/images/logo.jpg" class="logo-image">
+        <p>
+          <address>
+            Farmgate, Dhaka-1200
+            <br>
+            Dhaka
+          </address>
+          <a href="mailto:support@booksharing.com">support@booksharing.com</a>
+        </p>
+      </div>
+
+      <div class="col-md-3">
+        <h4>Top Links</h4>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Login</a></li>
+          <li><a href="">Create New Account</a></li>
+          <li><a href="">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col-md-3">
+        <h4>Top Links</h4>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Login</a></li>
+          <li><a href="">Create New Account</a></li>
+          <li><a href="">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col-md-3">
+        <h4>Top Links</h4>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Login</a></li>
+          <li><a href="">Create New Account</a></li>
+          <li><a href="">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="text-center">
+      &copy; 2019 all rights reserved
+    </p>
+  </div>
+</div>
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>
